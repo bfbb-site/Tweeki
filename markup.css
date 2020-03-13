@@ -1,0 +1,64 @@
+/* top of page banner */
+.m-banner {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.m-banner img {
+    width: 100%;
+    height: auto;
+	border-radius: 5px;
+}
+
+/* image sizing */
+.m-img {
+    display: block;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.m-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.m-img-fullwidth {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.m-img-fullwidth img {
+    width: 100%;
+    height: auto;
+}
+
+/* infboxes */
+.m-infobox {
+    float: right;
+    clear: right;
+    border: 1px solid var(--blue-400);
+    font-size: 0.95em;
+    text-align: left;
+    padding: 0.3em;
+    margin: 1em 0.5em;
+    border-collapse: unset;
+    min-width: 225px;
+}
+
+.m-infobox img {
+	width: 90%;
+	height: auto;
+	margin-bottom: 1em;
+}
+
+@media only screen and (max-width:400px) {
+    .m-infobox {
+        width: 100%;
+        min-width: 100%;
+    }
+}

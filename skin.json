@@ -61,6 +61,12 @@
 				},
 				"mediawiki/interface.css": {
 					"media": "screen"
+				},
+				"custom.css": {
+					"media": "screen"
+				},
+				"markup.css": {
+					"media": "screen"
 				}
 			}
 		},
