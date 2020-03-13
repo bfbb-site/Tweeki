@@ -187,3 +187,20 @@ table.wikitable td {
 textarea {
 	background: #111;
 }
+
+/* bg image */
+#contentwrapper {
+    padding-top: 75px;
+}
+#contentwrapper.user-loggedin > .row {
+    background-color: #1a1a44ff;
+    border-radius: 5px;
+}
+#contentwrapper.user-loggedout .mw-body {
+    background-color: #1a1a44ff;
+}
+body {
+    background: url(https://bfbb.site/resources/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
