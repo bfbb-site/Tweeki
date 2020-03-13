@@ -24,9 +24,39 @@
 	--blue-100:              #c0c3d6;
 	--blue-50:               #e6e7ee;
 }
-/* 
- * Fixes for dark mode and general rendering should go in here
- */
+/* bg image */
+#contentwrapper {
+    padding-top: 75px;
+}
+
+#contentwrapper.user-loggedin > .row {
+    background-color: #1a1a44ea;
+    border-radius: 5px;
+}
+
+#contentwrapper.user-loggedout .mw-body {
+    background-color: #1a1a44ea;
+}
+
+.navbar-inverse {
+    background-color: #353b72ea;
+    border-color: #555c8c;
+}
+
+:root {
+	background-color: var(--blue-900);
+}
+
+body {
+    background: url(https://bfbb.site/resources/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* navbar logo */
+.navbar-brand img {
+    height: 30px;
+    margin-top: -7px;
+}
 
 /* wikitext */
 hr {
@@ -188,19 +218,3 @@ textarea {
 	background: #111;
 }
 
-/* bg image */
-#contentwrapper {
-    padding-top: 75px;
-}
-#contentwrapper.user-loggedin > .row {
-    background-color: #1a1a44ff;
-    border-radius: 5px;
-}
-#contentwrapper.user-loggedout .mw-body {
-    background-color: #1a1a44ff;
-}
-body {
-    background: url(https://bfbb.site/resources/bg.png);
-    background-attachment: fixed;
-    background-size: cover;
-}
